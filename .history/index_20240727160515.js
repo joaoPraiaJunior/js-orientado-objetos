@@ -12,12 +12,7 @@ console.log(novoUser.nome);
 
 const novoDocente = new Docente("Ana", "a@a.com", "2024-01-01");
 console.log(novoDocente.exibirInfos());
-console.log(novoDocente.aprovarEstudante("Marcela", "JS"));
+
 
 const novoAdmin = new Admin("Rodrigo", "r@r.com", "2024-01-01");
 console.log(novoAdmin.exibirInfos());
-console.log(novoAdmin.criarCurso("JS", 10));
-
-//Método estático nao precisa ser instanciado
-const dadosFicticios = User.exibirInfosGenericas('Cassio', 'c@c.com')
-console.log(dadosFicticios);

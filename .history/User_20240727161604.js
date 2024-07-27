@@ -57,7 +57,6 @@ export default class User {
         }
     }
 
-    //Método estático pertence a propria classe
     static exibirInfosGenericas(nome, email) {
         return `${nome}, ${email}`
     }
