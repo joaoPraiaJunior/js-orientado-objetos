@@ -23,4 +23,3 @@ const exibirNovamente = function () {
 //Aqui o objeto é vincular ao bind e o this é referenciado ao objeto user
 const exibirNomeEmail = exibirNovamente.bind(user);
 exibirNomeEmail(); // Juliana
-
