@@ -7,11 +7,10 @@ export default class Admin extends User {
         super(nome, email, nascimento, role, ativo);
     }
 
-    //Override sobreescrita de método
-    // exibirInfos() {
-    //     const infos = super.exibirInfos()
-    //     return `admin - ${infos}`;
-    // }
+    exibirInfos() {
+        const infos = super.exibirInfos()
+        return `admin - ${infos}`;
+    }
 
     criarCurso(nomeDoCurso, qtdVagas) {
         return `Curso ${nomeDoCurso} criado com ${qtdVagas} vagas`;

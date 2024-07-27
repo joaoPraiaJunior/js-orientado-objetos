@@ -52,14 +52,9 @@ export default class User {
         if (this.role === "admin") {
             return `dados admin: ${this.nome}, ${this.role}`
         }
-        if (this.role === "Docente") {
+        if (this.role === "docente") {
             return `dados docente: ${this.nome}, ${this.email}`
         }
-    }
-
-    //Método estático pertence a propria classe
-    static exibirInfosGenericas(nome, email) {
-        return `${nome}, ${email}`
     }
 }
 
