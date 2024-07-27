@@ -14,5 +14,5 @@ export default class Docente extends User {
 }
 
 //Classes não são hoisted
-// const novoDocente = new Docente("Ana", "a@a.com", "2024-01-01");
-// console.log(novoDocente.aprovarEstudante("Marcela", "JS"));
+const novoDocente = new Docente("Ana", "a@a.com", "2024-01-01");
+console.log(novoDocente.aprovarEstudante("Marcela", "JS"));

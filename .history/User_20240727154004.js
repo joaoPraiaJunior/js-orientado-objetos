@@ -37,7 +37,6 @@ export default class User {
 
     //set altera o valor da propriedade fora da superclasse
     set nome(novoNome) {
-        if(novoNome === '') throw new Error('Nome inválido');
         this.#nome = novoNome;
     }
 

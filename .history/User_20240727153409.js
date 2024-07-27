@@ -14,35 +14,22 @@ export default class User {
         this.#ativo = ativo;
     }
 
-    //get dá acesso ao valor da propriedade fora da superclasse
     get nome() {
         return this.#nome;
     }
 
-    get email() {
-        return this.#email;
+    #montaObjUser() {
+        return ({
+            nome: this.#nome,
+            email: this.#email,
+            nascimento: this.#nascimento,
+            role: this.#role,
+            ativo: this.#ativo,
+        });
     }
-
-    get nascimento() {
-        return this.#nascimento;
-    }
-
-    get role() {
-        return this.#role;
-    }
-
-    get ativo() {
-        return this.#ativo;
-    }
-
-    //set altera o valor da propriedade fora da superclasse
-    set nome(novoNome) {
-        if(novoNome === '') throw new Error('Nome inválido');
-        this.#nome = novoNome;
-    }
-
     exibirInfos() {
-        return `${this.nome}, ${this.email}`;
+        const objUser = this.#montaObjUser();
+        return `${objUser.nome}, ${objUser.email}`;
     }
 }
 
