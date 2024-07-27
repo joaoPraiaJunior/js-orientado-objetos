@@ -20,7 +20,6 @@ const exibirNovamente = function () {
     console.log(this.nome, this.email);
 }
 
-//Aqui o objeto é vincular ao bind e o this é referenciado ao objeto user
-const exibirNomeEmail = exibirNovamente.bind(user);
-exibirNomeEmail(); // Juliana
-
+//Aqui o objeto é atrelado ao bind e o this é referenciado ao objeto user
+const exiibirNomeEmail = exibirNovamente.bind(user);
+exiibirNomeEmail(); // Juliana
