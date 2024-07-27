@@ -37,12 +37,12 @@ export default class User {
 
     //set altera o valor da propriedade fora da superclasse
     set nome(novoNome) {
-        if(novoNome === '') throw new Error('Nome inválido');
         this.#nome = novoNome;
     }
 
     exibirInfos() {
-        return `${this.nome}, ${this.email}`;
+        const objUser = this.#montaObjUser();
+        return `${objUser.nome}, ${objUser.email}`;
     }
 }
 
