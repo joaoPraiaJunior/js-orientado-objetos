@@ -1,0 +1,40 @@
+Entendendo os paradigmas de programação
+Paradigmas de programação são abordagens sobre como resolver problemas de programação, baseados em uma teoria ou um conjunto de princípios definidos. Em outras palavras, um paradigma normalmente se baseia em alguma teoria matemática ou computacional que propõe resolver determinado problema de uma forma específica.
+
+Cada paradigma tem um conjunto de regras que especificam como os dados são tratados, a organização do sistema, a forma como o código é escrito, entre vários outros aspectos.
+
+Abstraindo conceitos com orientação a objetos
+A orientação a objetos, especificamente, é um princípio que busca espelhar o mundo real por meio de uma estrutura de objetos com características e ações. Esses objetos, por sua vez, interagem uns com os outros.
+
+Ou seja, a programação orientada a objetos parte de uma premissa de aproximar a modelagem do código do "mundo real" para o software. O propósito é transformar em software aspectos como uma pessoa, um produto ou um processo.
+
+O intuito dessa abordagem é aproximar a abstração lógica de um programa ou aplicativo aos problemas da vida real que o software deve resolver.
+
+Quando falamos em objetos, precisamos abstrair conceitos que existem na vida real.
+
+Por exemplo, vamos pensar em um gato. Para abstrair um gato seguindo os conceitos da orientação a objetos, começamos dividindo este gato (não literalmente) em duas partes: características e comportamentos.
+
+Como características desse gato, identificaremos:
+
+O sexo;
+A idade, que calculamos a partir da data de nascimento;
+A cor da pelagem;
+Alguns status como:
+Ser castrado;
+Estar vacinado;
+Estar vermifugado.
+Os comportamentos que este gato pode ter são ações. Nessa etapa, descreveremos o que o gato pode fazer:
+
+Miar;
+Comer:
+Comer ração úmida;
+Comer ração seca;
+Dormir;
+Se limpar com lambidas;
+Brincar:
+Brincar com bolinha;
+Brincar com laser;
+Brincar com fita;
+Se transferirmos isso para o JavaScript, podemos utilizar um objeto literal, único para cada gato.
+
+O objeto literal é a forma mais comum de se criar objetos em JavaScript, na qual temos uma variável e criamos o objeto a partir dela.
